@@ -1,0 +1,80 @@
+.header {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border: 0px solid gray;
+    background-color: #70249c;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.inner-header {
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 1500px;
+
+
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation a li {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: gray;
+    color: #101010;
+}
+
+.logo-container {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: aliceblue;
+    ;
+}
+
+.content-1 {
+    display: flex;
+    flex: auto;
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-top: 90px;
+}
+
+.content-right-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-2 {
+    display: flex;
+    flex: auto;
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+
+.content-left-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
